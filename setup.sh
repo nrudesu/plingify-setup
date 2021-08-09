@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-sudo apt install -y openbox firefox tightvncserver
+sudo apt install openbox firefox tightvncserver -y
 mkdir ~/.vnc
 cat << EOF > ~/.vnc/xstartup
 #!/bin/bash
